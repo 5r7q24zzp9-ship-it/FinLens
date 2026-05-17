@@ -1,0 +1,17 @@
+/Users/aslimelikekandemir/FinLens/FinLens.Infrastructure/bin/Debug/net8.0/FinLens.Infrastructure.deps.json
+/Users/aslimelikekandemir/FinLens/FinLens.Infrastructure/bin/Debug/net8.0/FinLens.Infrastructure.dll
+/Users/aslimelikekandemir/FinLens/FinLens.Infrastructure/bin/Debug/net8.0/FinLens.Infrastructure.pdb
+/Users/aslimelikekandemir/FinLens/FinLens.Infrastructure/bin/Debug/net8.0/FinLens.Application.dll
+/Users/aslimelikekandemir/FinLens/FinLens.Infrastructure/bin/Debug/net8.0/FinLens.Domain.dll
+/Users/aslimelikekandemir/FinLens/FinLens.Infrastructure/bin/Debug/net8.0/FinLens.Application.pdb
+/Users/aslimelikekandemir/FinLens/FinLens.Infrastructure/bin/Debug/net8.0/FinLens.Domain.pdb
+/Users/aslimelikekandemir/FinLens/FinLens.Infrastructure/obj/Debug/net8.0/FinLens.Infrastructure.csproj.AssemblyReference.cache
+/Users/aslimelikekandemir/FinLens/FinLens.Infrastructure/obj/Debug/net8.0/FinLens.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aslimelikekandemir/FinLens/FinLens.Infrastructure/obj/Debug/net8.0/FinLens.Infrastructure.AssemblyInfoInputs.cache
+/Users/aslimelikekandemir/FinLens/FinLens.Infrastructure/obj/Debug/net8.0/FinLens.Infrastructure.AssemblyInfo.cs
+/Users/aslimelikekandemir/FinLens/FinLens.Infrastructure/obj/Debug/net8.0/FinLens.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/aslimelikekandemir/FinLens/FinLens.Infrastructure/obj/Debug/net8.0/FinLens..AC711B2B.Up2Date
+/Users/aslimelikekandemir/FinLens/FinLens.Infrastructure/obj/Debug/net8.0/FinLens.Infrastructure.dll
+/Users/aslimelikekandemir/FinLens/FinLens.Infrastructure/obj/Debug/net8.0/refint/FinLens.Infrastructure.dll
+/Users/aslimelikekandemir/FinLens/FinLens.Infrastructure/obj/Debug/net8.0/FinLens.Infrastructure.pdb
+/Users/aslimelikekandemir/FinLens/FinLens.Infrastructure/obj/Debug/net8.0/ref/FinLens.Infrastructure.dll

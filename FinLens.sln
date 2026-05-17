@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinLens.API", "FinLens.API\FinLens.API.csproj", "{3DAE229A-068B-4437-A1A7-9F91763819B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinLens.Application", "FinLens.Application\FinLens.Application.csproj", "{EA644706-B818-40D8-B5D7-65262878EAC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinLens.Domain", "FinLens.Domain\FinLens.Domain.csproj", "{ABC2520C-4D32-4FB5-853E-CE69A66D7E2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinLens.Infrastructure", "FinLens.Infrastructure\FinLens.Infrastructure.csproj", "{8369F951-70D9-4EB3-8BEE-58872E96DB99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DAE229A-068B-4437-A1A7-9F91763819B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DAE229A-068B-4437-A1A7-9F91763819B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DAE229A-068B-4437-A1A7-9F91763819B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DAE229A-068B-4437-A1A7-9F91763819B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA644706-B818-40D8-B5D7-65262878EAC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA644706-B818-40D8-B5D7-65262878EAC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA644706-B818-40D8-B5D7-65262878EAC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA644706-B818-40D8-B5D7-65262878EAC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABC2520C-4D32-4FB5-853E-CE69A66D7E2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABC2520C-4D32-4FB5-853E-CE69A66D7E2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABC2520C-4D32-4FB5-853E-CE69A66D7E2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABC2520C-4D32-4FB5-853E-CE69A66D7E2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8369F951-70D9-4EB3-8BEE-58872E96DB99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8369F951-70D9-4EB3-8BEE-58872E96DB99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8369F951-70D9-4EB3-8BEE-58872E96DB99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8369F951-70D9-4EB3-8BEE-58872E96DB99}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+/Users/aslimelikekandemir/FinLens/FinLens.Domain/bin/Debug/net8.0/FinLens.Domain.deps.json
+/Users/aslimelikekandemir/FinLens/FinLens.Domain/bin/Debug/net8.0/FinLens.Domain.dll
+/Users/aslimelikekandemir/FinLens/FinLens.Domain/bin/Debug/net8.0/FinLens.Domain.pdb
+/Users/aslimelikekandemir/FinLens/FinLens.Domain/obj/Debug/net8.0/FinLens.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aslimelikekandemir/FinLens/FinLens.Domain/obj/Debug/net8.0/FinLens.Domain.AssemblyInfoInputs.cache
+/Users/aslimelikekandemir/FinLens/FinLens.Domain/obj/Debug/net8.0/FinLens.Domain.AssemblyInfo.cs
+/Users/aslimelikekandemir/FinLens/FinLens.Domain/obj/Debug/net8.0/FinLens.Domain.csproj.CoreCompileInputs.cache
+/Users/aslimelikekandemir/FinLens/FinLens.Domain/obj/Debug/net8.0/FinLens.Domain.dll
+/Users/aslimelikekandemir/FinLens/FinLens.Domain/obj/Debug/net8.0/refint/FinLens.Domain.dll
+/Users/aslimelikekandemir/FinLens/FinLens.Domain/obj/Debug/net8.0/FinLens.Domain.pdb
+/Users/aslimelikekandemir/FinLens/FinLens.Domain/obj/Debug/net8.0/ref/FinLens.Domain.dll

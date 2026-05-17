@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "qsRxqY1xAzXEdAjEKlm00MclajRgdgCT6O+cKzr47AU=",
+  "Source": "FinLens.API",
+  "BasePath": "_content/FinLens.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
