@@ -139,3 +139,4 @@
 /Users/aslimelikekandemir/FinLens/FinLens.API/bin/Debug/net8.0/runtimes/win/lib/net7.0/System.Management.dll
 /Users/aslimelikekandemir/FinLens/FinLens.API/bin/Debug/net8.0/System.Security.Permissions.dll
 /Users/aslimelikekandemir/FinLens/FinLens.API/obj/Debug/net8.0/FinLens.API.sourcelink.json
+/Users/aslimelikekandemir/FinLens/FinLens.API/bin/Debug/net8.0/System.Net.WebSockets.WebSocketProtocol.dll

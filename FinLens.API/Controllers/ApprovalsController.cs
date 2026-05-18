@@ -14,11 +14,16 @@ public class ApprovalsController : ControllerBase
 {
     private readonly IApplicationDbContext _context;
     private readonly ICurrentUserService _currentUser;
+    private readonly INotificationService _notificationService;
 
-    public ApprovalsController(IApplicationDbContext context, ICurrentUserService currentUser)
+    public ApprovalsController(
+        IApplicationDbContext context,
+        ICurrentUserService currentUser,
+        INotificationService notificationService)
     {
         _context = context;
         _currentUser = currentUser;
+        _notificationService = notificationService;
     }
 
     [HttpGet("pending")]
@@ -91,7 +96,6 @@ public class ApprovalsController : ControllerBase
         approval.ReviewerId = userId;
         approval.ReviewNote = request.Note;
         approval.ReviewedAt = DateTime.UtcNow;
-
         approval.Transaction.Status = TransactionStatus.Approved;
 
         _context.ApprovalLogs.Add(new ApprovalLog
@@ -103,6 +107,17 @@ public class ApprovalsController : ControllerBase
         });
 
         await _context.SaveChangesAsync(ct);
+
+        await _notificationService.SendToUserAsync(
+            approval.RequesterId,
+            "approval.approved",
+            new
+            {
+                transactionId = approval.TransactionId,
+                amount = approval.Transaction.Amount,
+                message = "Harcama talebiniz onaylandı."
+            },
+            ct);
 
         return Ok(new { message = "Talep onaylandı." });
     }
@@ -128,7 +143,6 @@ public class ApprovalsController : ControllerBase
         approval.ReviewerId = userId;
         approval.ReviewNote = request.Note;
         approval.ReviewedAt = DateTime.UtcNow;
-
         approval.Transaction.Status = TransactionStatus.Rejected;
 
         _context.ApprovalLogs.Add(new ApprovalLog
@@ -140,6 +154,18 @@ public class ApprovalsController : ControllerBase
         });
 
         await _context.SaveChangesAsync(ct);
+
+        await _notificationService.SendToUserAsync(
+            approval.RequesterId,
+            "approval.rejected",
+            new
+            {
+                transactionId = approval.TransactionId,
+                amount = approval.Transaction.Amount,
+                message = "Harcama talebiniz reddedildi.",
+                note = request.Note
+            },
+            ct);
 
         return Ok(new { message = "Talep reddedildi." });
     }

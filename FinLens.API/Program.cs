@@ -40,6 +40,7 @@ builder.Services.AddSwaggerGen(c =>
     });
 });
 builder.Services.AddHttpContextAccessor();
+builder.Services.AddSignalR();
 
 builder.Services.AddInfrastructure(builder.Configuration);
 
@@ -98,5 +99,6 @@ app.UseCors("FinLensPolicy");
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
+app.MapHub<FinLens.API.Hubs.NotificationHub>("/hubs/notifications");
 
 app.Run();

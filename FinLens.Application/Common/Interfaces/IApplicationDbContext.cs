@@ -41,3 +41,8 @@ public interface ICurrentUserService
     string? Email { get; }
     bool IsAuthenticated { get; }
 }
+public interface INotificationService
+{
+    Task SendToUserAsync(Guid userId, string type, object payload, CancellationToken cancellationToken = default);
+    Task SendToWorkspaceAsync(Guid workspaceId, string type, object payload, CancellationToken cancellationToken = default);
+}
