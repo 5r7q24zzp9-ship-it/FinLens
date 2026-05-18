@@ -15,3 +15,4 @@
 /Users/aslimelikekandemir/FinLens/FinLens.Infrastructure/obj/Debug/net8.0/refint/FinLens.Infrastructure.dll
 /Users/aslimelikekandemir/FinLens/FinLens.Infrastructure/obj/Debug/net8.0/FinLens.Infrastructure.pdb
 /Users/aslimelikekandemir/FinLens/FinLens.Infrastructure/obj/Debug/net8.0/ref/FinLens.Infrastructure.dll
+/Users/aslimelikekandemir/FinLens/FinLens.Infrastructure/obj/Debug/net8.0/FinLens.Infrastructure.sourcelink.json

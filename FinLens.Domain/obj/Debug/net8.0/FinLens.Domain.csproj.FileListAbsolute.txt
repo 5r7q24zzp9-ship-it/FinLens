@@ -9,3 +9,4 @@
 /Users/aslimelikekandemir/FinLens/FinLens.Domain/obj/Debug/net8.0/refint/FinLens.Domain.dll
 /Users/aslimelikekandemir/FinLens/FinLens.Domain/obj/Debug/net8.0/FinLens.Domain.pdb
 /Users/aslimelikekandemir/FinLens/FinLens.Domain/obj/Debug/net8.0/ref/FinLens.Domain.dll
+/Users/aslimelikekandemir/FinLens/FinLens.Domain/obj/Debug/net8.0/FinLens.Domain.sourcelink.json

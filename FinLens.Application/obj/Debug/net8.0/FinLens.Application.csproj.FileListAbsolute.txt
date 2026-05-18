@@ -13,3 +13,4 @@
 /Users/aslimelikekandemir/FinLens/FinLens.Application/obj/Debug/net8.0/refint/FinLens.Application.dll
 /Users/aslimelikekandemir/FinLens/FinLens.Application/obj/Debug/net8.0/FinLens.Application.pdb
 /Users/aslimelikekandemir/FinLens/FinLens.Application/obj/Debug/net8.0/ref/FinLens.Application.dll
+/Users/aslimelikekandemir/FinLens/FinLens.Application/obj/Debug/net8.0/FinLens.Application.sourcelink.json
