@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
+using FinLens.Application.Common.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -39,8 +40,20 @@ builder.Services.AddSwaggerGen(c =>
         }
     });
 });
+
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddSignalR();
+
+builder.Services
+    .AddGraphQLServer()
+    .AddQueryType(d => d.Name("Query"))
+    .AddTypeExtension<FinLens.API.GraphQL.Queries.WorkspaceQueries>()
+    .AddTypeExtension<FinLens.API.GraphQL.Queries.TransactionQueries>()
+    .AddTypeExtension<FinLens.API.GraphQL.Queries.AnalyticsQueries>()
+    .AddFiltering()
+    .AddSorting()
+    .RegisterDbContext<FinLens.Infrastructure.Persistence.ApplicationDbContext>()
+    .RegisterService<ICurrentUserService>();
 
 builder.Services.AddInfrastructure(builder.Configuration);
 
@@ -67,6 +80,7 @@ builder.Services.AddCors(options =>
         policy
             .WithOrigins(
                 "http://localhost:3000",
+                "http://localhost:5201",
                 "https://finlens.app"
             )
             .AllowAnyHeader()
@@ -99,6 +113,7 @@ app.UseCors("FinLensPolicy");
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
+app.MapGraphQL("/graphql");
 app.MapHub<FinLens.API.Hubs.NotificationHub>("/hubs/notifications");
 
 app.Run();

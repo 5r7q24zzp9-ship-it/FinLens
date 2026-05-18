@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FinLens.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+412026e6abf7b715945913ec941268fee1f38ae0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2b75642bc2f9746d643edcaca1d44d1441995306")]
 [assembly: System.Reflection.AssemblyProductAttribute("FinLens.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FinLens.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
